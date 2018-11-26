@@ -1,5 +1,5 @@
 # Plugin-JavaScript
-Example of a pure JavaScript plugin for DroidScript
+Basic example of a pure JavaScript plugin for DroidScript
 
 You simply need to drop the MyPlugin.zip file into a folder called /sdcard/DroidScript/Plugins on your device and DroidScript will import it into the plugins list along with the sample documentation (after you restart DroidScript).
 
