@@ -1,5 +1,12 @@
 
-function MyPlugin()
+//Add CreateMyPlugin method to global app object.
+app.CreateMyPlugin = function( options ) 
+{ 
+    return new MyPlugin( options );
+}
+
+//Plugin wrapper class.
+function MyPlugin( options )
 {
 	this.callback = null;
 	

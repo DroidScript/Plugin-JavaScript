@@ -29,7 +29,7 @@
 		
 		<p>Then you can create an instance of the plugin object when you need it like this:</p>
 		
-		<div class="samp">&nbsp;plg = app.CreateObject( "MyPlugin" );</div>
+		<div class="samp">&nbsp;plg = app.CreateMyPlugin();</div>
 		  
 		<br>
 		<p>Examples:</p>
@@ -46,7 +46,7 @@
 				 &nbsp;&nbsp;btn.SetOnTouch( CallPlugin );<br>
 				 &nbsp;&nbsp;lay.AddChild( btn );<br><br>
 				 <b id="snip1"  style="font-size:100%">
-				 &nbsp;&nbsp;plg = app.CreateObject( "MyPlugin" );<br>
+				 &nbsp;&nbsp;plg = app.CreateMyPlugin();<br>
 				 </b><br>
 				 &nbsp;&nbsp;app.AddLayout( lay );<br>
 				}<br>
@@ -77,7 +77,7 @@
 				 &nbsp;&nbsp;btn.SetOnTouch( CallPlugin );<br>
 				 &nbsp;&nbsp;lay.AddChild( btn );<br><br>
 				 <b id="snip2"  style="font-size:100%">
-				 &nbsp;&nbsp;plg = app.CreateObject( "MyPlugin" );<br>
+				 &nbsp;&nbsp;plg = app.CreateMyPlugin();<br>
 				 &nbsp;&nbsp;plg.SetOnMyReply( OnMyReply );<br>
 				 </b><br>
 				 &nbsp;&nbsp;app.AddLayout( lay );<br>
